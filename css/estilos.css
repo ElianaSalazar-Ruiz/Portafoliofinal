@@ -1,0 +1,259 @@
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header .nav {
+  min-height: 80px;
+  overflow: hidden;
+  background: white;
+}
+/*ESTILOS PARA LOGO*/
+header .logo h2,
+header .logo span,
+header .logo p {
+  font-size: 16px;
+  display: inline-block; /*Para que se pongan uno al lado del otro*/
+  margin: 0;
+}
+
+header .logo h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+header .logo .icono {
+  color: #bfbfbf;
+}
+
+header .logo p {
+  color: #777777;
+}
+/*ESTILOS PARA EL MENU*/
+header .menu {
+  padding: 0;
+}
+
+header .menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+}
+
+header .menu a div span {
+  font-weight: 600;
+}
+
+header .menu .c-1 {
+  background: #003855;
+}
+
+header .menu .c-2 {
+  background: #005385;
+}
+
+header .menu .c-3 {
+  background: #003855;
+}
+
+header .menu .c-1:hover {
+  background: #3da5e2;
+}
+
+header .menu .c-2:hover {
+  background: #3da5e2;
+}
+
+header .menu .c-3:hover {
+  background: #3da5e2;
+}
+/*ESTILO SLIDER*/
+.slider {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.slider .col {
+  padding: 0;
+}
+/*ESTILOS PARA EL PORTAFOLIO*/
+.portafolio {
+  background: white;
+  border-top: 5px solid #3da5e2;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+.portafolio .titulo {
+  padding: 40px 0;
+  text-align: center;
+  color: #3da5e2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.portafolio .galeria .contenedor-imagen {
+  margin-bottom: 10px;
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+  display: inline-block;
+  background: #3da5e2;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+  opacity: 0.6;
+}
+
+.portafolio .modal-dialog {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+/*ESTILOS ACERCE DE*/
+.acerca-de {
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+  text-align: center;
+}
+
+.acerca-de .foto img {
+  margin-bottom: 30px;
+}
+
+.acerca-de .foto .nombre {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen {
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.acerca-de .info .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #005385;
+  margin-bottom: 10px;
+}
+
+.acerca-de .info .progress {
+  background: #005385;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.acerca-de .info .progress-bar {
+  height: 16px;
+  background: #3da5e2;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 20px;
+}
+/*ESTILOS CONTACTO*/
+.contacto {
+  padding: 40px 0;
+  border-top: 1px solid #cbcbcb;
+  margin-bottom: 20px;
+}
+
+.contacto .titulo {
+  color: #005385;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contacto .form-group {
+  margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  padding: 15px;
+  border: none;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.formulario textarea {
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+.formulario .boton {
+  background: #3da5e2;
+  border: none;
+  padding: 7px 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  width: auto;
+  border-radius: 3px;
+}
+
+.formulario .boton:hover {
+  background: #1a96dd;
+}
+/*ESTILOS REDES SOCIALES*/
+.redes {
+  padding: 40px 0;
+  margin-bottom: 40px;
+  border-top: 1px solid #cbcbcb;
+}
+
+.redes .icono {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  background: #cbcbcb;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.redes .twitter {
+  background: #1da1f2;
+}
+
+.redes .whatsapp {
+  background: #00bb2d;
+}
+
+.redes .instagram {
+  background: #833ab4;
+}
+
+.redes .facebook {
+  background: #3b5998;
+}

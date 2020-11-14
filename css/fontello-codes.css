@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+ 
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-dot:before { content: '\e78b'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */
+.icon-user:before { content: '👤'; } /* '\1f464' */
+.icon-briefcase:before { content: '💼'; } /* '\1f4bc' */

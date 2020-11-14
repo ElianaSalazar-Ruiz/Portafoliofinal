@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>
+            Portafolio - Natalia Ferrer
+        </title>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <!--BARRA LOGO + MENU-->
+                <div class="row nav rounded-top rounded-bottom align-items-stretch justify-content-between">
+                    <!--LOGOTIPO-->
+                    <div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <img src="img/logo.png">
+                        <h2>Natalia Ferrer</h2>
+                        <span class="icono icon-dot"></span>
+                        <p>Ideas decorativas</p>
+                    </div>
+                    <!--MENU DE NAVEGACIÓN-->
+                    <nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+                        <a href="#s-portafolio" class="c-1 d-flex align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                <span>Portafolio</span>
+                                <i class="icono icon-briefcase"></i>
+                            </div>
+                        </a>
+                        <a href="#s-acerca-de" class="c-2 d-flex align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                <span>Acerca de</span>
+                                <i class="icono icon-user"></i>
+                            </div>
+                        </a>
+                        <a href="#s-contacto" class="c-3 d-flex align-items-center">
+                            <div class="d-flex flex-column text-center">
+                                <span>Contacto</span>
+                                <i class="icono icon-mail"></i>
+                            </div>
+                        </a>
+                    </nav>
+                </div>
+                <!--MENU DE NAVEGACIÓN-->
+                <div class="row slider">
+                    <div class="col">
+                        <div class="carousel slide" id="slider" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                                <li data-target="#slider" data-slide-to="1"></li>
+                                <li data-target="#slider" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider11.jpg" class="d-block img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider12.jpg" class="d-block img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider13.jpg" class="d-block img-fluid">
+                                </div>
+                            </div>
+                            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a href="#slider" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <!-- BLOQUE PARA EL PORTAFOLIO -->
+                <div class="row portafolio">
+                    <div class="col">
+                        <h2 class="titulo">Portafolio</h2>
+                        <div class="row galeria justify-content-center">
+                            <div class="contenedor-imagen col-6 col-lg-4">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P01.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-12 col-lg-8">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P13.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-12 col-lg-8">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P15.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-6 col-lg-4">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-6 col-lg-4">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P03.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-6 col-lg-4">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P04.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="contenedor-imagen col-6 col-lg-4">
+                                <a href="" data-toggle="modal" data-target="#modal">
+                                    <img src="img/P05.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <!-- EFECTO MODAL -->
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog d-flex justify-content-center align-items-center">
+                                    <div class="modal-content">
+                                        <img src="" id="imagen-modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOQUE PERFIL ACERCE DE -->
+                <div class="row acerca-de align-items-center">
+                    <div class="col-12 col-lg-4 foto">
+                        <img src="img/Perfil.jpg" class="rounded-circle img-fluid">
+                        <p class="nombre">Natalia Ferrer</p>
+                    </div>
+                    <div class="col-12 col-lg-8 info">
+                        <h2 class="titulo">
+                            Acerca de Natalia Ferrer
+                        </h2>
+                        <p class="resumen">
+                            En primer lugar, la principal habilidad con que debe contar cualquier diseñador de interiores es la visualización. Visualizar no consiste solamente en ver y analizar las dimensiones de un espacio: consiste en entender dicho lugar para poder estudiar las diferentes posibilidades que ofrece. Es importante que un diseñador de interiores sea capaz de visualizar y analizar cualquier espacio, tanto si este se encuentra previamente decorado, como si se encuentra vacío.
+                        </p>
+                        <p class="resumen">
+                            Por otro lado, para ser un buen diseñador de interiores es importante ser capaz de trabajar como parte de un equipo, así como de forma individual. El diseño de interiores implica colaboración con profesionales de ámbitos como la arquitectura y la decoración de interiores. Por lo tanto, es importante saber trabajar en equipo. Sin embargo, también es igual de importante poseer la iniciativa y capacidad de liderazgo necesarias para poder tomar decisiones individuales importantes, que determinarán el diseño del lugar en cuestión.
+                        </p>
+                        <!-- BARRAS DE HABILIDADES -->
+                        <p class="label">Capacidad de Innovación</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 95%;">95%</div>
+                        </div>
+                        <p class="label">Cconocimientos artísticos</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                        <p class="label">Flexibilidad y Capacidad de Adaptación</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOQUE CONTACTO -->
+                <div class="row contacto justify-content-center">
+                    <div class="col-12 col-lg-8">
+                        <h2 class="titulo">Contacto</h2>
+                        <form action="" class="formulario">
+                            <div class="form-group row">
+                                <div class="col-12 col-md-6">
+                                    <input type="text" name="" id="" placeholder="Nombre">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" name="" id="" placeholder="Correo">
+                                </div>
+                            </div>
+                            <textarea name="" id="" placeholder="Mensaje"></textarea>
+                            <div class="form-group d-flex justify-content-center">
+                                <input type="submit" class="boton" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- BLOQUE REDES SOCIALES -->
+        <footer>
+            <div class="container">
+                <div class="row redes justify-content-center">
+                    <div class="col-auto">
+                        <a href="https://twitter.com/" target="_blank" class="icono icon-twitter twitter"></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="icono icon-instagram instagram"></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="icono icon-facebook facebook"></a>
+                        <a href="https://web.whatsapp.com/" target="_blank" class="icono icon-whatsapp whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
